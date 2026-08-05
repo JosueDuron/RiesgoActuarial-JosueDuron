@@ -101,7 +101,7 @@ if enviar:
         try:
 
             client = OpenAI(
-                api_key=GROQ_API_KEY,
+                api_key=api_key,
                 base_url="https://api.groq.com/openai/v1"
             )
 
